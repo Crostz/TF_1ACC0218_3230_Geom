@@ -59,6 +59,11 @@ class FormasVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by FormasParser#circulo.
+    def visitCirculo(self, ctx:FormasParser.CirculoContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by FormasParser#trasladar.
     def visitTrasladar(self, ctx:FormasParser.TrasladarContext):
         return self.visitChildren(ctx)

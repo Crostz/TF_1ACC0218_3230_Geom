@@ -98,6 +98,15 @@ class FormasListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by FormasParser#circulo.
+    def enterCirculo(self, ctx:FormasParser.CirculoContext):
+        pass
+
+    # Exit a parse tree produced by FormasParser#circulo.
+    def exitCirculo(self, ctx:FormasParser.CirculoContext):
+        pass
+
+
     # Enter a parse tree produced by FormasParser#trasladar.
     def enterTrasladar(self, ctx:FormasParser.TrasladarContext):
         pass

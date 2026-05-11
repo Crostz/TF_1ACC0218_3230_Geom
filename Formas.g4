@@ -14,6 +14,7 @@ instruccion
     | repetir
     | trasladar
     | mostrar
+    | circulo
     ;
 
 asignacion: ID IGUAL expr ;
@@ -42,6 +43,11 @@ pentagono
     | PENTAGONO ID LPAREN expr COMA expr COMA expr COMA expr COMA expr COMA expr COMA expr COMA expr COMA expr COMA expr RPAREN
     ;
 
+circulo
+    : CIRCULO ID LPAREN ID COMA expr RPAREN
+    | CIRCULO ID LPAREN expr COMA expr RPAREN
+    ;
+
 trasladar
     : TRASLADAR LPAREN ID COMA expr COMA expr RPAREN
     ;
@@ -67,7 +73,7 @@ RECTA     : 'recta';
 TRIANGULO : 'triangulo';
 CUADRADO  : 'cuadrado';
 PENTAGONO : 'pentagono';
-
+CIRCULO   : 'circulo';
 TRASLADAR : 'trasladar';
 MOSTRAR   : 'mostrar';
 
