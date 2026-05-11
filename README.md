@@ -25,9 +25,9 @@ Para desarrollar un lenguaje que implemente instrucciones geométricas, se plant
  
 ## Integrantes
  
-| Diego Fabrizio Mucha Alvarez | 
-| Nicole Yessenia Vasquez Tinco |
-| Linda Libertad Leon Quispe | 
-| Alessandro Daniel Bravo Castillo| 
-| Alessandro Elías Hesse Pulache| 
+- Diego Fabrizio Mucha Alvarez 
+- Nicole Yessenia Vasquez Tinco 
+- Linda Libertad Leon Quispe 
+- Alessandro Daniel Bravo Castillo
+- Alessandro Elías Hesse Pulache
 ---
