@@ -1,4 +1,4 @@
-# TP_1ACC0218_3230_Geom
+# TF_1ACC0218_3230_Geom
 > Un lenguaje diseñado para facilitar la enseñanza y el aprendizaje de la geometría mediante instrucciones simples, representación visual interactiva y manipulación dinámica de figuras.
  
 ---
